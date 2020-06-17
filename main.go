@@ -1,19 +1,3 @@
-// main is a webhook service for Kubernetes LDAP authentication.
-//
-// Usage:
-//
-//   main <ldap-ip> <key> <cert>
-//
-// Arguments:
-//
-//   ldap-ip: IP address of the LDAP directory
-//   key:     private key for serving HTTPS
-//   cert:    certificate for serving HTTPS
-//
-// You can create a private ky and self-signed certificate with:
-//
-//   openssl req -x509 -newkey rsa:2048 -nodes -subj "/CN=localhost" -keyout key.pem -out cert.pem
-//
 package main
 
 import (
