@@ -1,6 +1,6 @@
 # Webhook service for Kubernetes LDAP authentication
 
-This is a webhook service implementing LDAP authentication for Kubernetes with the [Webhook Token authentication plugin](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#webhook-token-authentication).
+This is a webhook service that implements LDAP authentication for Kubernetes with the [Webhook Token authentication plugin](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#webhook-token-authentication).
 
 ## Dependencies
 
@@ -17,7 +17,7 @@ Cross-compile for Linux:
 GOOS=linux GOARCH=amd64 go build main.go
 ```
 
-## Usage
+## Run
 
 ```bash
 main <ldap-ip> <key> <cert>
